@@ -63,6 +63,24 @@ To clear the floating on the element.
 
 
 
-
 ### Responsive Design ###
 Designing a webpage that looks good on devices of various sizes and is usable on as many devices as possible.
+
+**Media Query**
+Used to modify the CSS of a site depending on qualities such as viewport size or device type.
+
+```
+@media(min-width:600px){
+    body {
+        background-color:blue;
+    }
+}
+```
+
+**Flexbox**
+A one-dimensional layout system in CSS
+
+**CSS Grid Layout**
+A two-dimensional layout system in CSS. 
+
+We can mix both of these layout technics while creating webpages. For example, using Flexbox in navigation, and for the rest of the mutilcolumn body by CSS Grid system.
