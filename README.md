@@ -51,3 +51,18 @@ If you want to stop/restrict user from zooming then you could use following valu
  ```
 
  By doing that, we are telling the image to not to wider than the container or any element it contains. This case is very much valid when a Desktop Image is being shown on mobile devices. In other words, by doing that, the image will never be wider than the width of the view port.
+
+ **Position**
+Difference between absolute and relative is that relative will leave the space; however, absolute does not. Also Absolute does not have default width. Also, it would be absolute to the Body of the page not any container.
+
+**Float**
+It places an element along the left or right side of its container, allowing other elements to wrap around it.
+
+**clear**
+To clear the floating on the element. 
+
+
+
+
+### Responsive Design ###
+Designing a webpage that looks good on devices of various sizes and is usable on as many devices as possible.
