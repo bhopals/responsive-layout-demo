@@ -25,3 +25,26 @@ If you want to stop/restrict user from zooming then you could use following valu
     -   minimum-scale
     -   maximum-scale
 
+
+
+**Required CSS**
+ - Box sizing : By default padding, margina and border added outside the div. To solve this problem
+ we can set the "box-sizing" property to "border-box". 
+ *The default box-sizing is "content-box"
+
+ The box-sizing property allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box; on an element padding and border are included in the width and height.
+
+ To ensure, all the inherited element have the same box-sizing we can add a CSS property.
+
+ ```
+ *, *:before, *:after {
+     box-sizing : inherit;
+ }
+ ```  
+
+ **Max-width**
+ To make your images responsive, we need to ensure max-width set for the image
+
+ ```
+ max-width : 100%;
+ ```
