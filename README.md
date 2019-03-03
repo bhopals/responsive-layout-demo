@@ -50,4 +50,4 @@ If you want to stop/restrict user from zooming then you could use following valu
  max-width : 100%;
  ```
 
- By doing that, we are telling the image to not to wider than the container or any element it contains. This case is very much valid when a Desktop Image is being shown on mobile devices.
+ By doing that, we are telling the image to not to wider than the container or any element it contains. This case is very much valid when a Desktop Image is being shown on mobile devices. In other words, by doing that, the image will never be wider than the width of the view port.
