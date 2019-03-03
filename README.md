@@ -92,3 +92,43 @@ the end user has older or traditional browser.
 
 
 ### GRID LAYOUT###
+
+```
+.container {
+    display:grid;
+    grid-template-columns: 200px, 300px;
+    grid-template-rows : 200px, 50px, 100px;
+    grid-gap : 20px;
+    grid-row-gap:10px;
+    grid-column-gap:10px;
+}
+```
+We can also add sizing of each column we can use "auto"
+
+```
+.container {
+    grid-template-columns: auto, 100px, auto;
+}
+
+```
+
+here auto would split the extra space evenly to first and third column, but it can also make columns of 
+uneven size. To fix that, we can use "fr".
+
+FR - Fraction Unit.
+
+
+```
+.container {
+    grid-template-columns: 1fr, 100px, 1fr;
+}
+```
+OR
+
+```
+.container {
+    grid-template-columns: 1fr, 3fr, 9fr;
+}
+```
+Same FR can be set for ROWS as well
+  -  grid-template-rows: 1fr, 3fr, 9fr;
