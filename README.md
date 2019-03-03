@@ -42,9 +42,12 @@ If you want to stop/restrict user from zooming then you could use following valu
  }
  ```  
 
+
  **Max-width**
  To make your images responsive, we need to ensure max-width set for the image
 
  ```
  max-width : 100%;
  ```
+
+ By doing that, we are telling the image to not to wider than the container or any element it contains. This case is very much valid when a Desktop Image is being shown on mobile devices.
