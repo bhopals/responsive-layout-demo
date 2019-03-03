@@ -84,3 +84,11 @@ A one-dimensional layout system in CSS
 A two-dimensional layout system in CSS. 
 
 We can mix both of these layout technics while creating webpages. For example, using Flexbox in navigation, and for the rest of the mutilcolumn body by CSS Grid system.
+
+**Feature Queries**
+Queries which are going to be used if browser does not support any Feature. This is especially the case when 
+the end user has older or traditional browser.
+
+
+
+### GRID LAYOUT###
