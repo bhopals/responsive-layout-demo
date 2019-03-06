@@ -123,7 +123,9 @@ FR - Fraction Unit.
     grid-template-columns: 1fr, 100px, 1fr;
 }
 ```
+
 OR
+
 
 ```
 .container {
