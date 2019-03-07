@@ -134,3 +134,71 @@ OR
 ```
 Same FR can be set for ROWS as well
   -  grid-template-rows: 1fr, 3fr, 9fr;
+
+
+**Grid Column Positioning**
+ .item4{
+     grid-column-end:4;
+     grid-column-start:2;
+ }
+
+OR
+
+.item4 {
+    grid-column: 2/4; //Shorthand version of the above one.
+}
+
+
+.item4 {
+    grid-column: 2/ span 2; //Spanning of the columns.
+}
+
+OR
+
+you can use "grid-area" and enter row and column spanning in one line.
+
+This will place the grid column to mentioned nth ROW and nth COLUMN
+
+**Same can be applied for ROWS as well.
+.item4 {
+    grid-column : 2 / span 2;
+    grid-row : 3/ span 2;
+}
+
+
+**Grid Alignment Overview**
+    - justify-content
+    - align-content
+    - justify-items
+    - align-items
+    - justify-self
+    - align-self
+
+
+### FlexBox ###
+
+Unlike Grid, which can lay out elements in two directions,
+Flex box is meant to lay out elements in one directions.
+
+.container {
+    display:flex;
+    flex-direction: row;//Default one Horizental- left to right
+    //flex-direction: row-reverse;//Horizental - right to left
+    //flex-direction: column;//vertically Top to bottom
+    //flex-direction: column-reverse;//vertically Bottom to Top
+
+    //Wrapping
+    flex-wrap:nowrap;
+    flex-wrap:wrap;//Wrapping of ITEMs
+    flex-wrap:wrap-reverse;//Item wrapped reverse (Bottom to top)
+
+    //Flex Flow can be used to control Flex Direction and Flex wrap
+    flex-flow: row-reverse, wrap; //Combined version of above 2 
+
+
+    //ORDER
+    
+
+}
+
+
