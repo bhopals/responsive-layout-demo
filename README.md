@@ -196,9 +196,29 @@ Flex box is meant to lay out elements in one directions.
     flex-flow: row-reverse, wrap; //Combined version of above 2 
 
 
-    //ORDER
-    
-
 }
 
+//ORDER
+.item3 {
+    order : 4; //This will be rendered in the location based on the order provided
+    //A negative order number can also be passed.
+}    
+
+//Flexbox Alignment property
+- justify-content
+- align-items
+- align-content
+- align-self
+
+Above all are used to justify content in Main Axis/ Cross Axis
+
+
+**Layout Design**
+To align an element to vertically and horizentally below code can be used
+.container {
+    display:flex ; 
+    //display:grid; // This can also be used
+    justify-content:center;
+    align-content:center;
+}
 
